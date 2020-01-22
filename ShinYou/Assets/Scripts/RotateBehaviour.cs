@@ -36,7 +36,7 @@ public class RotateBehaviour : PlayableBehaviour
     {
         if(targetObj != null)
         {
-            targetObj.transform.Rotate(0, 1000 * Time.deltaTime, 0);
+            targetObj.transform.Rotate(0, 3000 * Time.deltaTime, 0);
         }
     }
 }
